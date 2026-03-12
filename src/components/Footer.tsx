@@ -11,10 +11,10 @@ export default function Footer() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/90 font-medium text-base sm:text-lg text-center sm:text-left">Ready to call?</p>
           <a
-            href="tel:+16195551234"
+            href="tel:+16196748833"
             className="w-full sm:w-auto inline-flex items-center justify-center min-h-[52px] bg-white text-brand-red px-8 py-3 font-bold text-lg sm:text-xl rounded-lg hover:bg-neutral-100 active:bg-neutral-200 transition-colors"
           >
-            619-555-1234
+            619-674-8833
           </a>
         </div>
       </div>

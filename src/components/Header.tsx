@@ -45,10 +45,10 @@ export default function Header() {
           </div>
 
           <a
-            href="tel:+16195551234"
+            href="tel:+16196748833"
             className="hidden md:inline-flex items-center bg-brand-red text-white px-5 py-2.5 rounded-lg font-bold text-sm hover:bg-red-700 transition-colors"
           >
-            619-555-1234
+            619-674-8833
           </a>
 
           <button
@@ -80,11 +80,11 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href="tel:+16195551234"
+                href="tel:+16196748833"
                 onClick={() => setMobileMenuOpen(false)}
                 className="mx-4 mt-3 block text-center bg-brand-red text-white py-4 min-h-[48px] flex items-center justify-center rounded-lg font-bold "
               >
-                619-555-1234
+                619-674-8833
               </a>
             </div>
           </div>

@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <Hero />
       <section className="bg-neutral-900 py-4 sm:py-6 overflow-hidden flex items-center px-4 sm:px-6">
-        <Marquee text="24/7 Emergency Service • San Diego County • Call 619-555-1234" />
+        <Marquee text="24/7 Emergency Service • San Diego County • Call 619-674-8833" />
       </section>
       <ContentCard />
       <Services />

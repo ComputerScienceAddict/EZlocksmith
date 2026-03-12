@@ -19,10 +19,10 @@ export default function Contact() {
           San Diego County &middot; Available 24/7
         </p>
         <a
-          href="tel:+16195551234"
+          href="tel:+16196748833"
           className="inline-flex items-center justify-center w-full sm:w-auto min-h-[56px] bg-brand-red text-white px-8 sm:px-10 py-4 font-bold text-xl sm:text-2xl rounded-xl hover:bg-red-700 active:bg-red-800 transition-colors"
         >
-          619-555-1234
+          619-674-8833
         </a>
       </div>
     </section>

@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="relative pt-24 sm:pt-28 md:pt-32 pb-16 sm:pb-24 md:pb-44 px-4 sm:px-6 min-h-[min(560px,100svh)] overflow-hidden">
@@ -13,7 +15,20 @@ export default function Hero() {
       {/* Red accent line */}
       <div className="absolute top-0 left-0 right-0 h-1.5 bg-brand-red" />
       
-      <div className="relative max-w-4xl mx-auto text-center">
+      <div className="relative max-w-4xl mx-auto text-center flex flex-col items-center">
+        {/* Logo - big and centered at top */}
+        <div className="mb-6 sm:mb-8 flex justify-center">
+          <Image
+            src="/logo.png"
+            alt="EZ Locksmith"
+            width={280}
+            height={90}
+            className="w-48 sm:w-56 md:w-64 lg:w-72 h-auto object-contain drop-shadow-lg"
+            priority
+            sizes="(max-width: 640px) 192px, (max-width: 768px) 224px, (max-width: 1024px) 256px, 288px"
+          />
+        </div>
+        
         <p className="text-brand-red font-bold text-xs sm:text-sm tracking-widest uppercase mb-4 sm:mb-6">
           San Diego County
         </p>
@@ -27,10 +42,10 @@ export default function Hero() {
         </p>
         
         <a
-          href="tel:+16195551234"
+          href="tel:+16196748833"
           className="inline-flex items-center justify-center w-full sm:w-auto min-h-[56px] bg-brand-red text-white px-8 sm:px-12 py-4 sm:py-5 font-bold text-xl sm:text-2xl hover:bg-red-700 active:bg-red-800 transition-all duration-200 rounded-xl sm:hover:scale-105"
         >
-          <span>619-555-1234</span>
+          <span>619-674-8833</span>
         </a>
       </div>
     </section>
