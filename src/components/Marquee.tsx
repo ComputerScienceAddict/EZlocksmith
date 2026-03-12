@@ -11,7 +11,7 @@ export default function Marquee({ text, className = "" }: MarqueeProps) {
 
   return (
     <div className={`overflow-hidden whitespace-nowrap ${className}`}>
-      <div className="animate-marquee inline-block text-white text-lg md:text-xl font-medium uppercase tracking-wider">
+      <div className="animate-marquee inline-block text-white text-sm sm:text-base md:text-xl font-medium uppercase tracking-wider">
         <span className="inline-block pr-8">{content}</span>
         <span className="inline-block pr-8">{content}</span>
       </div>

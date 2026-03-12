@@ -9,10 +9,10 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-white overflow-x-hidden">
       <Header />
       <Hero />
-      <section className="bg-neutral-900 py-6 overflow-hidden flex items-center">
+      <section className="bg-neutral-900 py-4 sm:py-6 overflow-hidden flex items-center px-4 sm:px-6">
         <Marquee text="24/7 Emergency Service • San Diego County • Call 619-555-1234" />
       </section>
       <ContentCard />

@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-44 px-6 min-h-[560px] overflow-hidden">
+    <section className="relative pt-24 sm:pt-28 md:pt-32 pb-16 sm:pb-24 md:pb-44 px-4 sm:px-6 min-h-[min(560px,100svh)] overflow-hidden">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -14,21 +14,21 @@ export default function Hero() {
       <div className="absolute top-0 left-0 right-0 h-1.5 bg-brand-red" />
       
       <div className="relative max-w-4xl mx-auto text-center">
-        <p className="text-brand-red font-bold text-sm tracking-widest uppercase mb-6">
+        <p className="text-brand-red font-bold text-xs sm:text-sm tracking-widest uppercase mb-4 sm:mb-6">
           San Diego County
         </p>
         
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter mb-8">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter mb-6 sm:mb-8">
           <span className="text-brand-red">EZ</span> Locksmith
         </h1>
         
-        <p className="text-neutral-400 text-xl md:text-2xl mb-12 max-w-xl mx-auto">
+        <p className="text-neutral-400 text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 max-w-xl mx-auto">
           Fast. Licensed. 24/7.
         </p>
         
         <a
           href="tel:+16195551234"
-          className="inline-flex items-center gap-3 bg-brand-red text-white px-12 py-5 font-bold text-2xl hover:bg-red-700 transition-all duration-200 rounded-xl hover:scale-105"
+          className="inline-flex items-center justify-center w-full sm:w-auto min-h-[56px] bg-brand-red text-white px-8 sm:px-12 py-4 sm:py-5 font-bold text-xl sm:text-2xl hover:bg-red-700 active:bg-red-800 transition-all duration-200 rounded-xl sm:hover:scale-105"
         >
           <span>619-555-1234</span>
         </a>

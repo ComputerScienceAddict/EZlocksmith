@@ -12,19 +12,19 @@ export default function Services() {
   const { ref, visible } = useScrollFadeIn(0.15);
 
   return (
-    <section id="services" ref={ref} className="py-20 px-6 bg-white">
+    <section id="services" ref={ref} className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
       <div
         className={`max-w-5xl mx-auto transition-all duration-700 ease-out ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <h2 className="text-3xl md:text-4xl font-black text-brand-black tracking-tight mb-12 text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-brand-black tracking-tight mb-8 sm:mb-12 text-center">
           What We Do
         </h2>
         
-        <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10 md:gap-12">
           {services.map((service, i) => (
-            <div key={i} className="text-center md:text-left">
+            <div key={i} className="text-center sm:text-left py-4 sm:py-0 border-b sm:border-b-0 border-neutral-200 last:border-b-0 sm:last:border-b-0">
               <h3 className="text-xl font-bold text-brand-black mb-2">
                 {service.name}
               </h3>
