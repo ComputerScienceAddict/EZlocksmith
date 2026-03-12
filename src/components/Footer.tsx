@@ -12,7 +12,7 @@ export default function Footer() {
           <p className="text-white/90 font-medium text-base sm:text-lg text-center sm:text-left">Ready to call?</p>
           <a
             href="tel:+16196748833"
-            className="w-full sm:w-auto inline-flex items-center justify-center min-h-[52px] bg-white text-brand-red px-8 py-3 font-bold text-lg sm:text-xl rounded-lg hover:bg-neutral-100 active:bg-neutral-200 transition-colors"
+            className="w-full sm:w-auto inline-flex items-center justify-center min-h-[48px] sm:min-h-[52px] bg-white text-brand-red px-6 sm:px-8 py-3 font-bold text-base sm:text-xl rounded-lg hover:bg-neutral-100 active:bg-neutral-200 transition-colors select-none"
           >
             619-674-8833
           </a>

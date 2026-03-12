@@ -20,7 +20,7 @@ export default function Contact() {
         </p>
         <a
           href="tel:+16196748833"
-          className="inline-flex items-center justify-center w-full sm:w-auto min-h-[56px] bg-brand-red text-white px-8 sm:px-10 py-4 font-bold text-xl sm:text-2xl rounded-xl hover:bg-red-700 active:bg-red-800 transition-colors"
+          className="inline-flex items-center justify-center w-full sm:w-auto min-h-[52px] sm:min-h-[56px] bg-brand-red text-white px-6 sm:px-10 py-3.5 sm:py-4 font-bold text-lg sm:text-2xl rounded-xl hover:bg-red-700 active:bg-red-800 transition-colors select-none"
         >
           619-674-8833
         </a>

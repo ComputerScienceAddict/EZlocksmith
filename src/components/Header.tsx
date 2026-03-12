@@ -82,7 +82,7 @@ export default function Header() {
               <a
                 href="tel:+16196748833"
                 onClick={() => setMobileMenuOpen(false)}
-                className="mx-4 mt-3 block text-center bg-brand-red text-white py-4 min-h-[48px] flex items-center justify-center rounded-lg font-bold "
+                className="mx-4 mt-3 block text-center bg-brand-red text-white py-3.5 min-h-[48px] flex items-center justify-center rounded-lg font-bold select-none"
               >
                 619-674-8833
               </a>

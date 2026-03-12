@@ -27,10 +27,10 @@ export default function ContentCard() {
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-brand-black tracking-tight mb-4 sm:mb-6">
+        <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-brand-black tracking-tight mb-4 sm:mb-6">
           Locked out?
         </h2>
-        <p className="text-neutral-600 text-lg sm:text-xl md:text-2xl">
+        <p className="text-neutral-600 text-base sm:text-xl md:text-2xl">
           We come to you. Fast service across San Diego County.
         </p>
       </div>
