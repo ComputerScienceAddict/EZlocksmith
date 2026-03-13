@@ -17,18 +17,18 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-neutral-200 shadow-sm pt-[env(safe-area-inset-top)]">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-14 sm:h-16 min-h-[56px]">
-          <Link href="/" className="flex items-center gap-2 sm:gap-3 shrink-0 min-h-[44px] py-2 -ml-1 pl-1">
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 shrink-0 min-h-[44px] py-2.5 -ml-1 pl-1 active:opacity-80">
             <Image
               src="/logo.png"
-              alt="EZ Locksmith"
+              alt="E.Z. Keys Locksmith"
               width={140}
               height={44}
-              className="h-7 sm:h-8 w-auto object-contain"
+              className="h-8 sm:h-9 w-auto object-contain"
               priority
               sizes="(max-width: 640px) 100px, 140px"
             />
             <span className="hidden sm:inline font-bold text-brand-black text-sm sm:text-base tracking-tight">
-              EZ Locksmith
+              E.Z. Keys Locksmith
             </span>
           </Link>
 

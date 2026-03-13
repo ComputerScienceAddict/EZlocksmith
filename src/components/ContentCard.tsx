@@ -30,9 +30,15 @@ export default function ContentCard() {
         <h2 className="text-2xl sm:text-4xl md:text-5xl font-black text-brand-black tracking-tight mb-4 sm:mb-6">
           Locked out?
         </h2>
-        <p className="text-neutral-600 text-base sm:text-xl md:text-2xl">
+        <p className="text-neutral-600 text-base sm:text-xl md:text-2xl mb-6 sm:mb-0">
           We come to you. Fast service across San Diego County.
         </p>
+        <a
+          href="tel:+16196748833"
+          className="mt-4 sm:mt-6 inline-flex items-center justify-center w-full sm:w-auto min-h-[52px] bg-brand-red text-white px-8 py-3.5 font-bold text-lg rounded-xl hover:bg-red-700 active:bg-red-800 transition-colors select-none md:hidden"
+        >
+          Call 619-674-8833
+        </a>
       </div>
     </section>
   );

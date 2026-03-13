@@ -27,13 +27,13 @@ export default function Footer() {
               <div className="bg-white rounded-lg p-1.5 sm:p-2 shrink-0">
                 <Image
                   src="/logo.png"
-                  alt="EZ Locksmith"
+                  alt="E.Z. Keys Locksmith"
                   width={100}
                   height={32}
                   className="h-5 sm:h-6 w-auto object-contain"
                 />
               </div>
-              <span className="text-white font-bold text-base sm:text-lg">EZ Locksmith</span>
+              <span className="text-white font-bold text-sm sm:text-base md:text-lg">E.Z. Keys Locksmith</span>
             </Link>
             <div className="flex items-center gap-4 sm:gap-6 text-neutral-400 text-sm flex-wrap justify-center md:justify-end">
               <span>San Diego County</span>
@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="mt-6 text-neutral-500 text-sm">
-            © {new Date().getFullYear()} EZ Locksmith
+            © {new Date().getFullYear()} E.Z. Keys Locksmith
           </p>
         </div>
       </div>

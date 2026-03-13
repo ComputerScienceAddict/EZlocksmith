@@ -20,12 +20,12 @@ export default function WhyChooseUs() {
         }`}
       >
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight mb-8 sm:mb-12 text-center">
-          Why <span className="text-brand-red">EZ</span>
+          Why <span className="text-brand-red">E.Z. Keys</span>
         </h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
           {benefits.map((b, i) => (
-            <div key={i} className="text-center py-4 md:py-0">
+            <div key={i} className="text-center py-5 md:py-0 px-2">
               <p className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-0.5 sm:mb-1">
                 {b.label}
               </p>

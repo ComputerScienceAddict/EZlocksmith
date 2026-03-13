@@ -9,9 +9,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "San Diego County Locksmith | Commercial, Automotive & Residential",
+  title: "E.Z. Keys Locksmith | San Diego County",
   description:
-    "Professional locksmith services throughout San Diego County. Specialized in Commercial, Automotive, and Residential locksmith services. 24/7 availability.",
+    "Professional locksmith services throughout San Diego County. E.Z. Keys Locksmith – Commercial, Automotive & Residential. 24/7 availability.",
 };
 
 export const viewport: Viewport = {

@@ -22,9 +22,9 @@ export default function Services() {
           What We Do
         </h2>
         
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10 md:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-0 sm:gap-10 md:gap-12">
           {services.map((service, i) => (
-            <div key={i} className="text-center sm:text-left py-5 sm:py-0 border-b sm:border-b-0 border-neutral-200 last:border-b-0 sm:last:border-b-0 first:pt-0">
+            <div key={i} className="text-center sm:text-left py-6 sm:py-0 border-b border-neutral-200 last:border-b-0 first:pt-0 last:pb-0">
               <h3 className="text-xl font-bold text-brand-black mb-2">
                 {service.name}
               </h3>
